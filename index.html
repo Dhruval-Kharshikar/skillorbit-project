@@ -4,200 +4,116 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>BookHive</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-
-    <!-- header section -->
     <header>
-        <!-- navigation bar -->
+        <h1><a href="index.html">📚 BookHive</a></h1>
         <nav>
-            <div>logo</div>
-            <a href="./index.html">Home</a>
-            <a href="./books.html">Books</a>
-            <a href="./about.html">About</a>
-            <a href="./contact.html">Contacts</a>
-            <a href="./login.html">Login</a>
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">🛒 Cart <span id="cart-count">0</span></a>
+            <a href="login.html">Login</a>
         </nav>
-
-        <!-- title of the web -->
-        <div class="hero">
-            <img src="" alt="">
-            <div class="title">
-                <h1>WELCOME TO BOOKHIVE</h1>
-                <p>India's favvourite Bookstore</p>
-                <button>View Books</button>
-            </div>
-        </div>
     </header>
 
-    <!-- main section -->
-     <main>
+    <main>
+        <section class="page-header">
+            <h2>Welcome to BookHive</h2>
+            <p>Browse top books, find new favorites, and shop with ease.</p>
+        </section>
 
-        <!-- featuerd books -->
-        <div class="featured">
-            <div class="card">
-                <div class="sale">80% sale</div>
-                <img src="" alt="img">
-                <div class="about">
-                    <h3>Title</h3>
-                    <p><i>Author</i></p>
-                    <p>rating</p>
-                    <h5>Rs. 300</h5>
-                </div>
-                <button class="cart">Add to cart</button>
-            </div>
-            <div class="card">
-                <div class="sale">80% sale</div>
-                <img src="" alt="img">
-                <div class="about">
-                    <h3>Title</h3>
-                    <p><i>Author</i></p>
-                    <p>rating</p>
-                    <h5>Rs. 300</h5>
-                </div>
-                <button class="cart">Add to cart</button>
-            </div>
-            <div class="card">
-                <div class="sale">80% sale</div>
-                <img src="" alt="img">
-                <div class="about">
-                    <h3>Title</h3>
-                    <p><i>Author</i></p>
-                    <p>rating</p>
-                    <h5>Rs. 300</h5>
-                </div>
-                <button class="cart">Add to cart</button>
-            </div>
-            <div class="card">
-                <div class="sale">80% sale</div>
-                <img src="" alt="img">
-                <div class="about">
-                    <h3>Title</h3>
-                    <p><i>Author</i></p>
-                    <p>rating</p>
-                    <h5>Rs. 300</h5>
-                </div>
-                <button class="cart">Add to cart</button>
-            </div>
-            <div class="card">
-                <div class="sale">80% sale</div>
-                <img src="" alt="img">
-                <div class="about">
-                    <h3>Title</h3>
-                    <p><i>Author</i></p>
-                    <p>rating</p>
-                    <h5>Rs. 300</h5>
-                </div>
-                <button class="cart">Add to cart</button>
-            </div>
-            <div class="card">
-                <div class="sale">80% sale</div>
-                <img src="" alt="img">
-                <div class="about">
-                    <h3>Title</h3>
-                    <p><i>Author</i></p>
-                    <p>rating</p>
-                    <h5>Rs. 300</h5>
-                </div>
-                <button class="cart">Add to cart</button>
-            </div>
-            <div class="card">
-                <div class="sale">80% sale</div>
-                <img src="" alt="img">
-                <div class="about">
-                    <h3>Title</h3>
-                    <p><i>Author</i></p>
-                    <p>rating</p>
-                    <h5>Rs. 300</h5>
-                </div>
-                <button class="cart">Add to cart</button>
-            </div>
-            <div class="card">
-                <div class="sale">80% sale</div>
-                <img src="" alt="img">
-                <div class="about">
-                    <h3>Title</h3>
-                    <p><i>Author</i></p>
-                    <p>rating</p>
-                    <h5>Rs. 300</h5>
-                </div>
-                <button class="cart">Add to cart</button>
-            </div>
-            <div class="card">
-                <div class="sale">80% sale</div>
-                <img src="" alt="img">
-                <div class="about">
-                    <h3>Title</h3>
-                    <p><i>Author</i></p>
-                    <p>rating</p>
-                    <h5>Rs. 300</h5>
-                </div>
-                <button class="cart">Add to cart</button>
-            </div>
-            <div class="card">
-                <div class="sale">80% sale</div>
-                <img src="" alt="img">
-                <div class="about">
-                    <h3>Title</h3>
-                    <p><i>Author</i></p>
-                    <p>rating</p>
-                    <h5>Rs. 300</h5>
-                </div>
-                <button class="cart">Add to cart</button>
-            </div>
-            
-        
-        </div>
+        <section class="home-features">
+            <article class="feature-card">
+                <h3>Curated Picks</h3>
+                <p>Hand-picked books from top categories and trending authors.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Easy Shopping</h3>
+                <p>Simple browsing, fast checkout, and clear book details.</p>
+            </article>
+            <article class="feature-card">
+                <h3>Free Delivery</h3>
+                <p>Enjoy free shipping on eligible orders across India.</p>
+            </article>
+        </section>
 
-        <!-- categories -->
-            <div class="category">
-                <div class="cat">
-                    <h3>Fiction</h3>
-                    <p>Stories born from imagination, often exploring characters and worlds beyond reality.</p>
-                </div>
-                <div class="cat">
-                    <h3>Self-Help</h3>
-                    <p>Guides for personal growth, motivation, and improving everyday life.</p>
-                </div>
-                <div class="cat">
-                    <h3>Non-Fiction</h3>
-                    <p> Informative works based on facts, real events, and true experiences.</p>
-                </div>
-                <div class="cat">
-                    <h3>Science and Technology</h3>
-                    <p>Explains discoveries, innovations, and the impact of scientific progress.</p>
-                </div>
-                <div class="cat">
-                    <h3>History</h3>
-                    <p>Chronicles past events, cultures, and significant moments shaping humanity.</p>
-                </div>
+        <section class="book-grid">
+            <article class="book-card">
+                <h3 class="book-name">The Bestseller</h3>
+                <p class="book-author">by Jane Doe</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">Great Stories</h3>
+                <p class="book-author">by John Smith</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">New Adventures</h3>
+                <p class="book-author">by Lee Brown</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">Hidden Gems</h3>
+                <p class="book-author">by Maria Lee</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">Summer Reads</h3>
+                <p class="book-author">by Alex Park</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">Mystery Tales</h3>
+                <p class="book-author">by Sara Kim</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">History Notes</h3>
+                <p class="book-author">by Dan Ruiz</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">Sci-Fi World</h3>
+                <p class="book-author">by Nina Cole</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">Romance Picks</h3>
+                <p class="book-author">by Leah Grant</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">Children's Tales</h3>
+                <p class="book-author">by Tom Rivers</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>📚 BookHive</h4>
+                <p>India's favorite online bookstore.</p>
             </div>
-     </main>
-
-     <!-- footer section -->
-      <footer style="background-color: gray;">
-        <div class="detail">
-            <h3>BookHive</h3>
-            <p>India's favorite online bookstore. Curated selection of books from Indian and international authors.</p>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="books.html">All Books</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
         </div>
-        <div class="about">
-            <a href="./about.html">about</a>
+        <div class="footer-bottom">
+            <p>© 2026 BookHive. All rights reserved.</p>
         </div>
-        <div class="contact">
-            <h3>Contact US</h3>
-            <p>+91 1234-567-890</p>
-            <p>bookhive.app@gmail.com</p>
-            <p>Vadodara, Gujarat</p>
-        </div>
-
-        <div class="connect">
-            <h3>Connect with us</h3>
-            <a href="#">Instagram</a>
-            <a href="#">LinkedIn</a>
-            <a href="#">Twitter</a>
-            <a href="#">facebook</a>
-        </div>
-      </footer>
-    
+    </footer>
 </body>
 </html>

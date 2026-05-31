@@ -4,47 +4,81 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Books</title>
+    <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
-    <!-- header section -->
     <header>
-        <!-- navigation bar -->
+        <h1><a href="index.html">📚 BookHive</a></h1>
         <nav>
-            <div>logo</div>
-            <a href="./index.html">Home</a>
-            <a href="#">Books</a>
-            <a href="./about.html">About</a>
-            <a href="./contact.html">Contacts</a>
-            <a href="./login.html">Login</a>
+            <a href="index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="about.html">About</a>
+            <a href="contact.html">Contact</a>
+            <a href="cart.html">🛒 Cart <span id="cart-count">0</span></a>
+            <a href="login.html">Login</a>
         </nav>
-
-        <!-- title of the web -->
-        <div class="hero">
-            <img src="" alt="">
-            <div class="title">
-                <h1>ALL BOOKS</h1>
-                <p>Browse our compolete collection</p>
-            </div>
-        </div>
     </header>
-    <main>
-        <div class="search">
-            <input type="text" name="" id="search" placeholder="search books or authors...">
-        </div>
-        <div class="filter">
-            <h2>Categgory :</h2>
-            <select name="" id="">
-                <option value="" selected disabled>All Categories</option>
-                <option value="">Fiction</option>
-                <option value="">Self-Help</option>
-                <option value="">Non-Fiction</option>
-                <option value="">Science and Technology</option>
-                <option value="">History</option>
-            </select>
-        </div>
 
+    <main>
+        <section class="page-header">
+            <h2>All Books</h2>
+            <p>Explore our library of recommended and popular books.</p>
+        </section>
+
+        <section class="book-grid">
+            <article class="book-card">
+                <h3 class="book-name">The Bestseller</h3>
+                <p class="book-author">by Jane Doe</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">Great Stories</h3>
+                <p class="book-author">by John Smith</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">New Adventures</h3>
+                <p class="book-author">by Lee Brown</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">Hidden Gems</h3>
+                <p class="book-author">by Maria Lee</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">Summer Reads</h3>
+                <p class="book-author">by Alex Park</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+            <article class="book-card">
+                <h3 class="book-name">Mystery Tales</h3>
+                <p class="book-author">by Sara Kim</p>
+                <a href="singlebook.html" class="book-link">View details</a>
+            </article>
+        </section>
     </main>
 
-
+    <footer>
+        <div class="footer-content">
+            <div class="footer-column">
+                <h4>📚 BookHive</h4>
+                <p>India's favorite online bookstore.</p>
+            </div>
+            <div class="footer-column">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="books.html">All Books</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>© 2026 BookHive. All rights reserved.</p>
+        </div>
+    </footer>
 </body>
 </html>
