@@ -269,6 +269,31 @@ footer{
     text-align: start;
     padding: 10px;
 }
+.category-section{
+    max-width: 1200px;
+    margin: 10px auto 60px;
+    padding: 10px 20px;
+    text-align: center;
+}
+.categories{
+    display: flex;
+    gap: 12px;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 10px;
+}
+.category-pill{
+    display: inline-block;
+    padding: 10px 16px;
+    background: var(--accent);
+    color: var(--dark);
+    border-radius: 999px;
+    text-decoration: none;
+    font-weight: 600;
+}
+.category-pill:hover{
+    background: #e58b58;
+}
 .detail-price{
     color: var(--primary);
     font-weight: 700;

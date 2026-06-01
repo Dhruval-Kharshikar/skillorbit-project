@@ -85,3 +85,51 @@
 .secondary-link:hover{
     background-color: var(--accent);
 }
+
+/* books page controls (search / category / sort) */
+.books-controls{
+    max-width: 1100px;
+    margin: 20px auto;
+    display: flex;
+    gap: 16px;
+    align-items: center;
+    padding: 18px 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: var(--primary);
+    border-radius: 16px;
+    border: 1px solid rgba(0,0,0,0.04);
+    box-shadow: 0 10px 30px rgba(12,12,12,0.06);
+    color: white;
+}
+.books-controls .search{
+    flex: 1 1 320px;
+}
+.search-input{
+    width: 100%;
+    max-width: 420px;
+    padding: 12px 16px;
+    border-radius: 12px;
+    border: 1px solid rgba(0,0,0,0.08);
+    box-shadow: 0 6px 18px rgba(12,12,12,0.06);
+    font-size: 16px;
+}
+.sort-select{
+    padding: 10px 12px;
+    border-radius: 10px;
+    border: 1px solid rgba(0,0,0,0.08);
+    background: white;
+    font-size: 15px;
+}
+.filters, .sort-order{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+@media (max-width: 720px){
+    .books-controls{
+        gap: 10px;
+    }
+    .search-input{ padding: 10px 12px; }
+}
