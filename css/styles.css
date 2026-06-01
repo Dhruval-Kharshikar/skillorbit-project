@@ -1,0 +1,108 @@
+:root{
+    --primary : #5b3a29;
+    --accent : #f4a261;
+    --background : #fff8f0;
+    --dark : #2c2c2c;
+    --muted : #6b6b6b;
+    --success : #2e7d32;
+    --error : #c62828;
+
+
+}
+body{
+    background-color: var(--background);
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+header{
+    background: linear-gradient(var(--primary),#834425);
+    text-align: center;
+    /* border: 2px solid; */
+    height: 500px;
+    position: relative;
+}
+nav{
+    background-color: var(--primary);
+    z-index: 2;
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    padding: 30px;
+    position: fixed;
+    top : 0;
+    border-bottom: 3px solid;
+    
+
+    /* border: 2px solid; */
+}
+nav a{
+    color: white;
+    text-decoration: none;
+    font-size: 20px;
+    transition: 0.5s ease-in-out;
+    padding: 10px 30px;
+}
+nav a:hover{
+    color: rgb(0, 0, 0);
+    border-radius:10px ;
+    background-color: var(--accent);
+    
+}
+
+#cart-count{
+    background-color: rgb(245, 245, 3);
+    padding: 8px 13px;
+    border-radius: 10px;
+    color: black;
+}
+.title img{
+    width: 100%;
+    object-fit: contain;
+    overflow: hidden;
+    opacity: 0.2;
+    
+}
+.title a{
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    font-size: 70px;
+}
+.title h1 {
+    position: absolute;
+    top:20%;
+    left: 44%;
+    z-index: 1;
+   
+}
+
+.title{
+    position: absolute;
+    top: 88px;
+    /* border: 2px solid; */
+    height: 414px;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center;
+
+}
+
+/* page header */
+.page-header{
+    background: linear-gradient( var(--accent), #834425);
+    padding: 100px;
+    text-align: center;
+    margin: 50px 100px;
+    border-radius: 35px;
+    color: var(--dark);
+    box-shadow: 4px 4px 7px;
+}
+.page-header h2{
+    font-size: 70px;
+}
+
+
