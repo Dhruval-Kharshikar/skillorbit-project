@@ -105,4 +105,39 @@ nav a:hover{
     font-size: 70px;
 }
 
-
+footer{
+    background-color: var(--dark);
+    color: white;
+    padding: 20px;
+}
+.footer-content{
+    padding: 60px;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    vertical-align: middle;
+}
+.footer-column{
+    color: white;
+    text-decoration: none;
+    vertical-align: top;
+}
+.footer-column h4{
+    font-size: 50px;
+}
+.footer-column p{
+    padding-top: 20px;
+}
+.footer-column a{
+    text-decoration: underline;
+    color: rgb(34, 181, 255);
+    
+}
+.footer-column a:active{
+    color: rgb(0, 68, 137);
+}
+.footer-column li{
+    list-style-type: none;
+    text-align: start;
+    padding: 10px;
+}
