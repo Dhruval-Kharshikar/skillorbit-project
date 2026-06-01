@@ -75,7 +75,7 @@ nav a:hover{
 .title h1 {
     position: absolute;
     top:20%;
-    left: 44%;
+    left: 42%;
     z-index: 1;
    
 }
@@ -94,20 +94,17 @@ nav a:hover{
 /* page header */
 .page-header{
     background: linear-gradient( var(--accent), #834425);
-    padding: 100px;
+    padding: 30px;
     text-align: center;
-    margin: 50px 100px;
-    border-radius: 35px;
+    margin: 50px 100px 100px 100px;
+    border-radius: 55px;
     color: var(--dark);
     box-shadow: 4px 4px 7px;
 }
 .page-header h2{
-    font-size: 70px;
+    font-size: 30px;
 }
 
-main{
-    padding-top: 150px;
-}
 
 .book-grid{
     background-color: #fce7cf;
